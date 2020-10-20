@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Satisfy', cursive;
+	src: url('Satisfy'.ttf)
+}
+body{
+	font-family: 'Satisfy', cursive;
+	background-color: #f8f0ef;
+}
+.navbar{
+	background-color: #f8f0ef;
+	border: none;
+	margin-bottom: 0;
+}
+.container-fluid{
+	margin-top:10px;
+}
+ul li{
+	padding-left:20px;
+}
+ul li a{
+	font-size: 24px;
+	margin-top: 14px;
+}
+.navbar-form{
+	margin-top: 18px;
+}
+p {
+	padding-left:5px;
+	padding-top:45px;
+	font-family: Helvetica;
+}
+h1{
+	font-size: 55px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: #81594d;
+}
+.row {
+	padding-top: 10px;
+}
+
+form{
+	font-size:20px;
+}
+h3 {
+	padding-left: 30px;
+}
+input {
+	font-family: Helvetica;
+}
+
+footer{
+	background-color: #e7a9b1;
+	padding-bottom:10px;
+
+}
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook, .fa-instagram, .fa-rss, .fa-sitemap{
+  background: #f8f0ef;
+  padding: 5px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1{
+        font-size:30px;
+	}
+	#girlsFl, #events{
+		margin:0 auto;
+	}
+	 
+}
